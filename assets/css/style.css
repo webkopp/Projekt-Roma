@@ -1,6 +1,15 @@
 @font-face {
     font-family: 'Santio';
     src: url('../fonts/Santio\ regular.ttf');
+
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+
+    font-family: 'MrDafoe';
+    src: url('../fonts/MrDafoe-Regular.ttf');
 }
 
 * {
@@ -10,12 +19,21 @@
 }
 
 :root {
-    --color-head: rgba(50, 58, 69, 1);
-    --color-artikel-preis: rgba(0, 0, 0, 1);
-    --color-marke: rgba(132, 132, 132, 1)
+    --font-color: '#fff';
+    --font-color-yellow: #E7BC0E;
+    --font-color-mint: #6BC1A3;
+    --font-color-rose: #CB91B6;
+    --font-color-cyan: #7EB8E1;
 }
 
 html {
     font-family: 'Sanito';
     font-size: 1em;
+}
+
+body {
+    background-image: url("../img/cleo-topper.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
 }
