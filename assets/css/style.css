@@ -206,3 +206,38 @@ main section p span {
     color: var(--font-color-white);
     background-color: rgba(45, 45, 45, 1);
 }
+
+div img {
+    position: relative;
+}
+
+footer {
+    height: 350px;
+    background-color: black;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+footer h5 {
+    font-family: 'Inter';
+    font-size: 24px;
+    width: 180px;
+}
+
+footer p {
+    font-family: 'Roboto';
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer p span {
+    color: var(--font-color-mint);
+}
+
+footer a {
+    padding: 20px;
+    border: 1px solid white;
+    color: var(--font-color-white);
+    font-size: 16px;
+    text-decoration: none;
+}
