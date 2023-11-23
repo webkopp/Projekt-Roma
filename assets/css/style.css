@@ -6,7 +6,7 @@
     src: url('../fonts/Roboto-Regular.ttf');
 
     font-family: 'Inter';
-    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+    src: url('../fonts/Inter-Regular.ttf');
 
     font-family: 'MrDafoe';
     src: url('../fonts/MrDafoe-Regular.ttf');
@@ -27,28 +27,30 @@
 }
 
 html {
-    font-family: 'Sanito';
     font-size: 1em;
+    font-family: 'Santio';
 }
 
 body {
     background-image: url("../img/cleo-topper.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
 /* header */
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    
-    align-items: baseline;
-    padding: 1em;
+    width: 100vw;
+    height: auto;
 }
 
-header img {
-    width: 5%;
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 1em;
 }
 
 header ul a {
@@ -58,5 +60,17 @@ header ul a {
     text-align: right;
     text-decoration: none;
     color: var(--font-color-white);
+}
+
+header img {
+    width: 5%;
+}
+
+/* main */
+
+main article h1 {
+    font-family: "Santio";
+    font-size: 66px;
+    font-weight: 700;
 }
 
