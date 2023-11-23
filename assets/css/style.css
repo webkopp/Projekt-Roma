@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Santio';
+    src: url('../fonts/Santio\ regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-head: rgba(50, 58, 69, 1);
+    --color-artikel-preis: rgba(0, 0, 0, 1);
+    --color-marke: rgba(132, 132, 132, 1)
+}
+
+html {
+    font-family: 'Sanito';
+    font-size: 1em;
+}
