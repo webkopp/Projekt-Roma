@@ -56,8 +56,7 @@ header {
 header ul {
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;
-    gap: 1em;
+    align-items: center;
 }
 
 header ul a {
@@ -66,6 +65,9 @@ header ul a {
     text-align: right;
     text-decoration: none;
     color: var(--font-color-white);
+    padding-right: 20px;
+    padding-top: 20px;
+
 }
 
 header img {
@@ -200,6 +202,7 @@ main section p span {
 
 .content {
     columns: var(--font-color-lightblue);
+    padding-bottom: 50px;
 }
 
 .content span {
@@ -207,12 +210,22 @@ main section p span {
     background-color: rgba(45, 45, 45, 1);
 }
 
-div img {
-    position: relative;
+.pictures {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/kid.png"), url("../img/see.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: lightgray;
 }
 
 footer {
-    height: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     background-color: black;
     padding-left: 200px;
     padding-top: 50px;
@@ -222,17 +235,9 @@ footer h5 {
     font-family: 'Inter';
     font-size: 24px;
     width: 180px;
-}
-
-footer p {
-    font-family: 'Roboto';
-    text-align: center;
     padding-bottom: 20px;
 }
 
-footer p span {
-    color: var(--font-color-mint);
-}
 
 footer a {
     padding: 20px;
@@ -240,4 +245,17 @@ footer a {
     color: var(--font-color-white);
     font-size: 16px;
     text-decoration: none;
+}
+
+footer a:hover {
+    box-shadow: 8px 8px 2px 1px rgba(255, 255, 255, 1);
+}
+
+footer p {
+    font-family: 'Roboto';
+    padding: 20px 0;
+}
+
+footer p span {
+    color: var(--font-color-mint);
 }
