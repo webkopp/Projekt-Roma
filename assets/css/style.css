@@ -29,7 +29,7 @@
     --font-color-yellow: #E7BC0E;
     --font-color-mint: #6BC1A3;
     --font-color-rose: #CB91B6;
-    --font-color-cyan: #7EB8E1;
+    --font-color-lightblue: #7EB8E1;
 }
 
 html {
@@ -109,7 +109,7 @@ main section p span {
 
 .million {
     padding-left: 320px;
-    padding-top: 200px;
+    padding-top: 70px;
 }
 
 .million img {
@@ -139,7 +139,7 @@ main section p span {
 
 .pay {
     padding-left: 320px;
-    padding-top: 200px;
+    padding-top: 70px;
 }
 
 .pay img {
@@ -151,15 +151,16 @@ main section p span {
     font-size: 90px;
     font-weight: bolder;
     line-height: 70px;
-    color: var(--font-color-yellow);
+    color: var(--font-color-rose);
     width: 200px;
 }
 
 .pay h3 {
     font-size: 24px;
     font-weight: bolder;
-    color: var(--font-color-yellow);
+    color: var(--font-color-rose);
     width: 300px;
+    padding-bottom: 10px;
 }
 
 .pay h3 span {
@@ -169,7 +170,7 @@ main section p span {
 
 .health {
     padding-left: 320px;
-    padding-top: 200px;
+    padding-top: 70px;
 }
 
 .health img {
@@ -181,14 +182,14 @@ main section p span {
     font-size: 90px;
     font-weight: bolder;
     line-height: 70px;
-    color: var(--font-color-yellow);
+    color: var(--font-color-mint);
     width: 200px;
 }
 
 .health h3 {
     font-size: 24px;
     font-weight: bolder;
-    color: var(--font-color-yellow);
+    color: var(--font-color-mint);
     width: 300px;
 }
 
@@ -197,3 +198,11 @@ main section p span {
     background-color: rgba(45, 45, 45, 1);
 }
 
+.content {
+    columns: var(--font-color-lightblue);
+}
+
+.content span {
+    color: var(--font-color-white);
+    background-color: rgba(45, 45, 45, 1);
+}
