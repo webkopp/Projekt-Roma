@@ -259,3 +259,60 @@ footer p {
 footer p span {
     color: var(--font-color-mint);
 }
+
+/* responsive */
+
+/* ! Media Queries */
+/* ? Handy ab 576px */
+/* ? Tablet ab 768px */
+/* ? Desktop ab 992px */
+
+/* # DESKTOP -> Handy max-width, um das Layout anzupassen, wenn der Bildschirm kleiner wird */
+
+/* * das @media ist ein Schlüssel, dein ein Media Querie in css einbettet. */
+/* * das Wort "only" wird verwendet, um ältere Browser auszuschließen, die die Media Queries nicht korrekt interpritieren können.  */
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 1rem;
+    }
+    
+    body {
+        min-width: 768px;
+        height: auto;
+    }
+
+    main section {
+        padding-left: 100px;
+    }
+
+    .million, .pay, .health {
+        padding-left: 200px;
+    }
+
+    .pictures {
+        display: none;
+    }
+    
+
+}
+
+@media only screen and (max-width: 576px) {
+    html {
+        font-size: 100%;
+    }
+    
+    body {
+        min-width: 992px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
+    }
+
+    .pictures {
+        display: none;
+    }
+
+}
