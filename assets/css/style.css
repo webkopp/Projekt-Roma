@@ -19,7 +19,7 @@
 }
 
 :root {
-    --font-color: '#fff';
+    --font-color-white: #fff;
     --font-color-yellow: #E7BC0E;
     --font-color-mint: #6BC1A3;
     --font-color-rose: #CB91B6;
@@ -34,6 +34,29 @@ html {
 body {
     background-image: url("../img/cleo-topper.jpg");
     background-repeat: no-repeat;
-    background-position: cover;
     background-attachment: fixed;
 }
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    
+    align-items: baseline;
+    padding: 1em;
+}
+
+header img {
+    width: 5%;
+}
+
+header ul a {
+    font-family: 'Roboto';
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: right;
+    text-decoration: none;
+    color: var(--font-color-white);
+}
+
